@@ -1,0 +1,42 @@
+:root {
+  --blue: #00b4d8;
+  --blue-soft: #90e0ef;
+  --text-light: #fff;
+  --text-dark: #181818;
+}
+
+:root {
+  --color-background-primary: var(--blue);
+  --color-background-secondary: var(--blue-soft);
+  --color-text-primary: var(--text-light);
+  --color-text-secondary: var(--text-dark);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text-primary);
+  background: #00b4db; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #0083b0,
+    #00b4db
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #0083b0,
+    #00b4db
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+}
