@@ -1,7 +1,7 @@
+ file:///home/elir/Pictures/Screenshots/Screenshot%20from%202023-05-31%2018-29-40.png
+
 # imports
-
 Icons
-
 - Font Awesome
 
 # packages
