@@ -26,3 +26,5 @@ npm run build    # production build in dist/
 
 ### Uploaded on Vercel
 Try it out [here](https://vuether-seven.vercel.app)
+
+> Heads up: the city view uses OpenWeather's One Call 2.5 endpoint, which OpenWeather has since retired. Search still works, but the forecast page won't load until the request is moved to One Call 3.0.
