@@ -20,6 +20,8 @@ Font Awesome@icons
 ### Project Setup
 ```sh
 npm install
+npm run dev      # local dev server
+npm run build    # production build in dist/
 ```
 
 ### Uploaded on Vercel
