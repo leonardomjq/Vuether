@@ -8,7 +8,7 @@
 ### First time using
 - [Vue@latest](https://vuejs.org/guide/quick-start.html)
 - [Transitions](https://vuejs.org/guide/built-ins/transition.html)
-- [Teleport](https://vuejs.org/guide/)
+- [Teleport](https://vuejs.org/guide/built-ins/teleport.html)
 - [Suspense](https://vuejs.org/guide/built-ins/suspense.html)
 
 ### Imports
