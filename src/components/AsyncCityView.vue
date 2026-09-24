@@ -15,7 +15,7 @@
         {{ weatherData.current.weather[0].description }}
       </p>
       <img
-        :src="`http://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}@2x.png`"
+        :src="`https://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}@2x.png`"
         alt="weather information"
       />
     </div>
@@ -36,7 +36,7 @@
               }}
             </p>
             <img
-              :src="`http://openweathermap.org/img/wn/${hourData.weather[0].icon}@2x.png`"
+              :src="`https://openweathermap.org/img/wn/${hourData.weather[0].icon}@2x.png`"
               alt="hourly data information"
             />
             <p>{{ Math.round(hourData.temp) }}&deg;</p>
@@ -64,7 +64,7 @@
             }}
           </p>
           <img
-            :src="`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`"
+            :src="`https://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`"
             alt="weekly data information"
           />
           <!-- min/max temp -->
