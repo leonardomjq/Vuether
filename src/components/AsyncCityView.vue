@@ -31,7 +31,7 @@
             <p>
               {{
                 new Date(hourData.currentTime).toLocaleTimeString('en-us', {
-                  hourly: 'numeric',
+                  hour: 'numeric',
                 })
               }}
             </p>
