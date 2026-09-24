@@ -23,4 +23,4 @@ npm install
 ```
 
 ### Uploaded on Vercel
-Try it out [here](vuether-seven.vercel.app)
+Try it out [here](https://vuether-seven.vercel.app)
